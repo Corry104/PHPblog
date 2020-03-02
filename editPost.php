@@ -10,12 +10,11 @@
         $body = mysqli_real_escape_string($conn, $_POST['body']);
         $author = mysqli_real_escape_string($conn, $_POST['author']);
 
-        $query =" UPDATE posts SET
-                    title='$title,
+        $query ="UPDATE posts SET
+                    title='$title',
                     author='$author',
                     body='$body'
-                  WHERE id = {$update_id}
-                ";
+                WHERE id = {$update_id}";
 
         if(mysqli_query($conn, $query)) {
             header('Location: ' .ROOT_URL.'');
