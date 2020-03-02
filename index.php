@@ -20,6 +20,7 @@
 ?>
 
 <?php include('components/header.php'); ?>
+
     <div class='container'>
         <h1>Posts</h1>
         <?php foreach($posts as $post) : ?>
