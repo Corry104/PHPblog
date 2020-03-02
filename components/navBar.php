@@ -10,6 +10,9 @@
             <li class="nav-item active">
                 <a class="nav-link" href="<?php echo ROOT_URL; ?>" style="color:#2FA4E7;">Home <span class="sr-only">(current)</span></a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="<?php echo ROOT_URL; ?>addPost.php" style="color:#2FA4E7;">Add Post<span class="sr-only">(current)</span></a>
+            </li>
         </div>
     </div>
 </nav>
