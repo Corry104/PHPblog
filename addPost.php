@@ -14,7 +14,7 @@
         if(mysqli_query($conn, $query)) {
             header('Location: ' .ROOT_URL.'');
         } else {
-            echo 'ERROR: '.mysqli_erro($conn);
+            echo 'ERROR: '.mysqli_error($conn);
         }
     }
 
