@@ -2,9 +2,9 @@
     require('config/config.php');
     require('config/db.php');
 
-    // Check for Submit
+    // Check for Update
     if(isset($_POST['submit'])) {
-        // Get Form Data
+        // Update Data
         $update_id = mysqli_real_escape_string($conn, $_POST['update_id']);
         $title = mysqli_real_escape_string($conn, $_POST['title']);
         $body = mysqli_real_escape_string($conn, $_POST['body']);

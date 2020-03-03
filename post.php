@@ -4,7 +4,7 @@
 
      // Check for Delete
      if(isset($_POST['delete'])) {
-        // Get Form Data
+        // Delete Data
         $delete_id = mysqli_real_escape_string($conn, $_POST['delete_id']);
 
         $query ="DELETE FROM posts WHERE id = {$delete_id}";
