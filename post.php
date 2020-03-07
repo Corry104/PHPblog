@@ -34,6 +34,7 @@
 
     // Close Connection
     mysqli_close($conn);
+
 ?>
 
 <?php include('components/header.php'); ?>
@@ -50,4 +51,5 @@
         </form>
         <a href="<?php echo ROOT_URL; ?>editPost.php?id=<?php echo $post['id']; ?>" class="btn btn-default">Edit</a>
     </div>
+
 <?php include('components/footer.php'); ?>
